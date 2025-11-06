@@ -1,0 +1,4 @@
+.env
+medigranny/
+__pychache__/
+*.pyc
