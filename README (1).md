@@ -1,4 +1,5 @@
 # 👵 MediGranny
+![MediGranny Banner](assets/MediGrannyESP.png)
 
 **AI-powered chatbot for medication guidance** — Making healthcare information accessible to everyone, especially seniors.
 
