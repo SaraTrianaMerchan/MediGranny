@@ -2,8 +2,12 @@
 MediGranny Backend - Flask API
 Connects CIMA API (Spanish meds) + OpenAI
 """
-from dotenv import load_dotenv
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass 
+
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import requests
